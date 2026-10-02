@@ -1,0 +1,40 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0C1117"/>
+      <stop offset="0.5" stop-color="#111B2A"/>
+      <stop offset="1" stop-color="#09131B"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFD76A"/>
+      <stop offset="0.5" stop-color="#E3A92A"/>
+      <stop offset="1" stop-color="#F9D77B"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7FD7FF"/>
+      <stop offset="1" stop-color="#2C8CFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" rx="36" fill="url(#bg)"/>
+  <rect x="22" y="22" width="1156" height="356" rx="26" stroke="rgba(255,255,255,0.12)"/>
+
+  <g transform="translate(70 60)">
+    <rect x="0" y="0" width="260" height="260" rx="36" fill="#0D1825" stroke="url(#gold)" stroke-width="6"/>
+    <circle cx="130" cy="130" r="84" fill="#101D2E" stroke="url(#gold)" stroke-width="8"/>
+    <path d="M46 130C67 85 98 62 130 62C163 62 194 85 214 130C194 175 163 198 130 198C98 198 67 175 46 130Z" fill="url(#blue)" fill-opacity="0.15" stroke="url(#gold)" stroke-width="8"/>
+    <circle cx="130" cy="130" r="44" fill="#0E1B2B" stroke="url(#gold)" stroke-width="8"/>
+    <circle cx="130" cy="130" r="20" fill="url(#gold)"/>
+    <path d="M102 52L130 20L158 52" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M102 208L130 240L158 208" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M38 102L10 130L38 158" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M222 102L250 130L222 158" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(380 78)">
+    <text x="0" y="126" fill="#F6F8FC" font-family="Verdana, Arial, sans-serif" font-size="96" font-weight="700" letter-spacing="1">OpticClient</text>
+    <rect x="4" y="156" width="516" height="6" rx="3" fill="url(#gold)"/>
+    <text x="0" y="224" fill="#AFC8F9" font-family="Verdana, Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="4">MINECRAFT CLIENT</text>
+    <text x="0" y="278" fill="#D5E3FF" font-family="Verdana, Arial, sans-serif" font-size="28" font-weight="400" opacity="0.9">PvP • HUD • Lightweight • Clean</text>
+  </g>
+</svg>
